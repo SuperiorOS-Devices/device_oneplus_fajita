@@ -1,5 +1,9 @@
 echo 'Starting to clone dynamic partition  trees without efros '
 
+# Device Tree enchilada
+ git clone git@github.com:SuperiorOS-Devices/device_oneplus_enchilada.git -b fourteen  device/oneplus/enchilada
+
+
 # Device Tree sdm845-common
  git clone git@github.com:SuperiorOS-Devices/device_oneplus_sdm845-common.git -b fourteen  device/oneplus/sdm845-common
 
@@ -9,7 +13,7 @@ echo 'hardware tree'
 
 echo 'kernel  tree'
 # kernel
- git clone git@github.com:LineageOS/android_kernel_oneplus_sdm845.git -b lineage-20 kernel/oneplus/sdm845
+ git clone git@github.com:SuperiorOS-Devices/kernel_oneplus_sdm845.git -b fourteen kernel/oneplus/sdm845
 
 echo 'Cloning Vendor sdm845-common tree'
 # Vendor Tree
